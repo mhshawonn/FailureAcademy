@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Course from '../course/course';
+import Achievement from '../achievement/Achievement';
 
 const Home = () => {
   return (
@@ -14,19 +17,11 @@ const Home = () => {
           Browse Courses
         </button>
       </section>
+      <Achievement/>
 
-      <section className="py-16 px-6">
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Why Failure Academy?</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {["Free Learning", "Mentorship", "Real Projects"].map((title, index) => (
-            <div key={index} className="bg-white shadow rounded-2xl p-6 text-center">
-              <h3 className="text-xl font-semibold text-blue-600">{title}</h3>
-              <p className="text-gray-600 mt-2">We boost your confidence.</p>
-            </div>
-          ))}
+      <Course/>
+
         </div>
-      </section>
-    </div>
   );
 };
 
