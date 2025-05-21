@@ -7,6 +7,7 @@ import './index.css';
 import Footer from './footer/Footer';
 import Login from './login/Login';
 import Signup from './signup/signup';
+import Courses from './course/Coureses';
 function App() {
   return (
     <Router>
@@ -16,6 +17,7 @@ function App() {
          <Route path="/course/:id" element={<CourseDetail />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/courses" element={<Courses />} />
         
       </Routes>
       <Footer />

@@ -12,9 +12,9 @@ const Navbar = () => {
       
       <ul className="hidden md:flex space-x-6 text-gray-700 font-medium">
         <li><a href="/">Home</a></li>
-        <li><a href="#">Courses</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="/courses">Courses</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
 
       <div className="space-x-4 hidden md:block">
@@ -32,10 +32,10 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="absolute top-16 left-0 w-full bg-white shadow-md flex flex-col items-center space-y-4 py-4 z-50 md:hidden">
-          <a href="#">Home</a>
-          <a href="#">Courses</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+          <a href="/">Home</a>
+          <a href="/courses">Courses</a>
+          <a href="about">About</a>
+          <a href="/contact">Contact</a>
           <div className="space-x-4">
             <button className="px-4 py-2 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50">Login</button>
             <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Signup</button>
