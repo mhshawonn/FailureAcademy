@@ -1,21 +1,22 @@
+import img1 from "../image/physics.jpg"
 const courses1 = [
   {
     id: 1,
     title: "Newtonian Mechanics",
     description: "Master the laws of motion and forces.",
-    thumbnail: "https://i.imgur.com/3yAfGrR.png"
+    thumbnail: img1
   },
   {
     id: 2,
     title: "Thermodynamics",
     description: "Understand heat, work, and energy.",
-    thumbnail: "https://i.imgur.com/DoF0t3K.png"
+    thumbnail: img1
   },
   {
     id: 3,
     title: "Electromagnetism",
     description: "Learn electric fields and magnetic forces.",
-    thumbnail: "https://i.imgur.com/4KvvYJu.png"
+    thumbnail: img1
   }
 ];
 const courses2 = [
@@ -23,19 +24,19 @@ const courses2 = [
     id: 4,
     title: "Quantum Mechanics",
     description: "Dive into the world of particles and waves.",
-    thumbnail: "https://i.imgur.com/3yAfGrR.png"
+    thumbnail: img1
   },
   {
     id: 5,
     title: "Relativity",
     description: "Explore the fabric of space and time.",
-    thumbnail: "https://i.imgur.com/DoF0t3K.png"
+    thumbnail:img1
   },
   {
     id: 6,
     title: "Astrophysics",
     description: "Study celestial bodies and the universe.",
-    thumbnail: "https://i.imgur.com/4KvvYJu.png"
+    thumbnail: img1
   }
 ];
 const courses3 = [
@@ -43,19 +44,19 @@ const courses3 = [
     id: 7,
     title: "Fluid Dynamics",
     description: "Understand the behavior of fluids in motion.",
-    thumbnail: "https://i.imgur.com/3yAfGrR.png"
+    thumbnail: img1
   },
   {
     id: 8,
     title: "Optics",
     description: "Learn about light and its properties.",
-    thumbnail: "https://i.imgur.com/DoF0t3K.png"
+    thumbnail: img1
   },
   {
     id: 9,
     title: "Nuclear Physics",
     description: "Explore the nucleus and its interactions.",
-    thumbnail: "https://i.imgur.com/4KvvYJu.png"
+    thumbnail: img1
   }
 ];
 const courses4 = [
@@ -63,19 +64,19 @@ const courses4 = [
     id: 10,
     title: "Statistical Mechanics",
     description: "Learn about the behavior of systems with many particles.",
-    thumbnail: "https://i.imgur.com/3yAfGrR.png"
+    thumbnail: img1
   },
   {
     id: 11,
     title: "Solid State Physics",
     description: "Study the properties of solids and their structures.",
-    thumbnail: "https://i.imgur.com/DoF0t3K.png"
+    thumbnail: img1
   },
   {
     id: 12,
     title: "Plasma Physics",
     description: "Explore the fourth state of matter.",
-    thumbnail: "https://i.imgur.com/4KvvYJu.png"
+    thumbnail:img1
   }
 ];
 const courses5 = [

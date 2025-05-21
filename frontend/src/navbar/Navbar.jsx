@@ -13,6 +13,7 @@ const Navbar = () => {
       <ul className="hidden md:flex space-x-6 text-gray-700 font-medium">
         <li><a href="/">Home</a></li>
         <li><a href="/courses">Courses</a></li>
+         <li><a href="/exam">Exam</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/contact">Contact</a></li>
       </ul>
@@ -34,6 +35,7 @@ const Navbar = () => {
         <div className="absolute top-16 left-0 w-full bg-white shadow-md flex flex-col items-center space-y-4 py-4 z-50 md:hidden">
           <a href="/">Home</a>
           <a href="/courses">Courses</a>
+           <a href="/exam">Exam</a>
           <a href="about">About</a>
           <a href="/contact">Contact</a>
           <div className="space-x-4">
