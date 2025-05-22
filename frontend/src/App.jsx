@@ -9,11 +9,14 @@ import Login from './login/Login';
 import Signup from './signup/signup';
 import Courses from './course/Coureses';
 import Exam from './exam/Exam';
+import { ToastContainer } from 'react-toastify';
+
 function App() {
   return (
     <Router>
       <Navbar />
       <div className='mb-20'>
+        <ToastContainer position="top-right" autoClose={3000} />
       <Routes>
         <Route path="/" element={<Home />} />
          <Route path="/course/:id" element={<CourseDetail />} />
