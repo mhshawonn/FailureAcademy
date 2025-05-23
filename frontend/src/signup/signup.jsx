@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import img from '../assets/image/EdTech.jpg';
 import {toast} from 'react-toastify'
-
+import { useNavigate } from 'react-router-dom';
 function Signup() {
   const [profileImage, setProfileImage] = useState(null);
 
   const handleImageChange = (e) => {
     setProfileImage(e.target.files[0]);
   };
+   const nav=useNavigate()
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -28,6 +29,8 @@ function Signup() {
      if (res.ok) {
       //const data = await res.json();
       toast.success('Signup successful!');
+      nav('/login')
+      
     } else {
     const errorData = await res.json();
 
