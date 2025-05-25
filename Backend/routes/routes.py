@@ -3,7 +3,7 @@ from fastapi import Form, UploadFile, File
 from controller.authController.registerController import student_registration
 from controller.authController.loginController import student_login
 from model.student_model import LoginModel
-
+from fastapi import Response
 
 router=APIRouter()
 
@@ -19,5 +19,5 @@ async def register_router(
  
 
 @router.post('/login')
-async def login_router(body:LoginModel):
-    return await student_login(body.email, body.password)
+async def login_router(body:LoginModel, response: Response):
+    return await student_login(body.email, body.password, response)
